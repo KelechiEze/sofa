@@ -21,11 +21,11 @@ export default function StickyScrollSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <span className="text-purple-600 font-bold uppercase tracking-[0.3em] text-xs mb-4 block">Our Philosophy</span>
-            <h2 className="text-5xl md:text-7xl font-black tracking-tighter leading-none mb-8 text-gray-900">
+            <span className="text-purple-600 font-bold uppercase tracking-[0.3em] text-[10px] mb-4 block">Our Philosophy</span>
+            <h2 className="text-3xl md:text-5xl font-black tracking-tighter leading-none mb-6 text-gray-900">
               {FEATURE_CONTENT.title}
             </h2>
-            <p className="text-xl text-gray-500 leading-relaxed max-w-xl mb-10">
+            <p className="text-base text-gray-500 leading-relaxed max-w-xl mb-8">
               {FEATURE_CONTENT.desc}
             </p>
             
