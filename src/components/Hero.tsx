@@ -88,10 +88,10 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-screen pt-24 pb-12 px-4 flex items-center justify-center bg-[#E5E7EB]/30">
-      {/* Main Card Container */}
+    <section className="min-h-screen pt-18 pb-12 px-0 flex items-center justify-center bg-[#E5E7EB]/30">
+      {/* Main Card Container - No border radius, full width */}
       <motion.div 
-        className="relative w-full max-w-6xl flex flex-col md:flex-row bg-white rounded-[60px] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] overflow-hidden border border-white/50"
+        className="relative w-full max-w-full flex flex-col md:flex-row bg-white overflow-hidden border border-white/50"
       >
         {/* Left Section: Hero Content */}
         <motion.div 
